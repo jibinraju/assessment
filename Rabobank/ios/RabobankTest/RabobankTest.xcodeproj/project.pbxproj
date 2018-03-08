@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A605B67C2051771B008F225E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B67B2051771B008F225E /* AppDelegate.m */; };
+		A605B6842051771B008F225E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A605B6832051771B008F225E /* Assets.xcassets */; };
+		A605B68A2051771B008F225E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6892051771B008F225E /* main.m */; };
+		A605B6942051771B008F225E /* RabobankTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6932051771B008F225E /* RabobankTestTests.m */; };
+		A605B6B72051A3EA008F225E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A605B6B12051A3EA008F225E /* LaunchScreen.storyboard */; };
+		A605B6B82051A3EA008F225E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A605B6B32051A3EA008F225E /* Main.storyboard */; };
+		A605B6B92051A3EA008F225E /* issues.csv in Resources */ = {isa = PBXBuildFile; fileRef = A605B6B62051A3EA008F225E /* issues.csv */; };
+		A605B6C52051A854008F225E /* OverViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6BF2051A854008F225E /* OverViewViewModel.m */; };
+		A605B6C62051A854008F225E /* OverViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6C02051A854008F225E /* OverViewDataSource.m */; };
+		A605B6C72051A854008F225E /* OverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6C12051A854008F225E /* OverViewController.m */; };
+		A605B6CE2051AC33008F225E /* CsvParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6CD2051AC33008F225E /* CsvParser.m */; };
+		A605B6D12051BFCD008F225E /* UserIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6D02051BFCD008F225E /* UserIssue.m */; };
+		A605B6D52051C696008F225E /* ParserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6D42051C696008F225E /* ParserBuilder.m */; };
+		A605B6D82051DC39008F225E /* IssueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6D72051DC39008F225E /* IssueDetailViewController.m */; };
+		A605B6DD2051DCA4008F225E /* IssueDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A605B6DC2051DCA4008F225E /* IssueDetailViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A605B6902051771B008F225E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A605B66F2051771B008F225E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A605B6762051771B008F225E;
+			remoteInfo = RabobankTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A605B6772051771B008F225E /* RabobankTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabobankTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A605B67A2051771B008F225E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A605B67B2051771B008F225E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A605B6832051771B008F225E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A605B6882051771B008F225E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A605B6892051771B008F225E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A605B68F2051771B008F225E /* RabobankTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabobankTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A605B6932051771B008F225E /* RabobankTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RabobankTestTests.m; sourceTree = "<group>"; };
+		A605B6952051771B008F225E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A605B6B22051A3EA008F225E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A605B6B42051A3EA008F225E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A605B6B62051A3EA008F225E /* issues.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = issues.csv; sourceTree = "<group>"; };
+		A605B6BC2051A854008F225E /* OverViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverViewDataSource.h; sourceTree = "<group>"; };
+		A605B6BD2051A854008F225E /* OverViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverViewViewModel.h; sourceTree = "<group>"; };
+		A605B6BE2051A854008F225E /* OverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverViewController.h; sourceTree = "<group>"; };
+		A605B6BF2051A854008F225E /* OverViewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverViewViewModel.m; sourceTree = "<group>"; };
+		A605B6C02051A854008F225E /* OverViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverViewDataSource.m; sourceTree = "<group>"; };
+		A605B6C12051A854008F225E /* OverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverViewController.m; sourceTree = "<group>"; };
+		A605B6CB2051A9A8008F225E /* BaseParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseParser.h; sourceTree = "<group>"; };
+		A605B6CC2051AC33008F225E /* CsvParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CsvParser.h; sourceTree = "<group>"; };
+		A605B6CD2051AC33008F225E /* CsvParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CsvParser.m; sourceTree = "<group>"; };
+		A605B6CF2051BFCD008F225E /* UserIssue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserIssue.h; sourceTree = "<group>"; };
+		A605B6D02051BFCD008F225E /* UserIssue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserIssue.m; sourceTree = "<group>"; };
+		A605B6D32051C696008F225E /* ParserBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParserBuilder.h; sourceTree = "<group>"; };
+		A605B6D42051C696008F225E /* ParserBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParserBuilder.m; sourceTree = "<group>"; };
+		A605B6D62051DC39008F225E /* IssueDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssueDetailViewController.h; sourceTree = "<group>"; };
+		A605B6D72051DC39008F225E /* IssueDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssueDetailViewController.m; sourceTree = "<group>"; };
+		A605B6DB2051DCA4008F225E /* IssueDetailViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssueDetailViewModel.h; sourceTree = "<group>"; };
+		A605B6DC2051DCA4008F225E /* IssueDetailViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssueDetailViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A605B6742051771B008F225E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A605B68C2051771B008F225E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A605B66E2051771B008F225E = {
+			isa = PBXGroup;
+			children = (
+				A605B6792051771B008F225E /* RabobankTest */,
+				A605B6922051771B008F225E /* RabobankTestTests */,
+				A605B6782051771B008F225E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A605B6782051771B008F225E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6772051771B008F225E /* RabobankTest.app */,
+				A605B68F2051771B008F225E /* RabobankTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A605B6792051771B008F225E /* RabobankTest */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6BA2051A854008F225E /* classes */,
+				A605B6AF2051A3EA008F225E /* resouces */,
+				A605B67A2051771B008F225E /* AppDelegate.h */,
+				A605B67B2051771B008F225E /* AppDelegate.m */,
+				A605B6832051771B008F225E /* Assets.xcassets */,
+				A605B6882051771B008F225E /* Info.plist */,
+				A605B6892051771B008F225E /* main.m */,
+			);
+			path = RabobankTest;
+			sourceTree = "<group>";
+		};
+		A605B6922051771B008F225E /* RabobankTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6932051771B008F225E /* RabobankTestTests.m */,
+				A605B6952051771B008F225E /* Info.plist */,
+			);
+			path = RabobankTestTests;
+			sourceTree = "<group>";
+		};
+		A605B6AF2051A3EA008F225E /* resouces */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6B02051A3EA008F225E /* xibs */,
+				A605B6B52051A3EA008F225E /* csv */,
+			);
+			path = resouces;
+			sourceTree = "<group>";
+		};
+		A605B6B02051A3EA008F225E /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6B12051A3EA008F225E /* LaunchScreen.storyboard */,
+				A605B6B32051A3EA008F225E /* Main.storyboard */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		A605B6B52051A3EA008F225E /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6B62051A3EA008F225E /* issues.csv */,
+			);
+			path = csv;
+			sourceTree = "<group>";
+		};
+		A605B6BA2051A854008F225E /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6D22051C65F008F225E /* Builder */,
+				A605B6BB2051A854008F225E /* viewcontroller */,
+				A605B6C22051A854008F225E /* data */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A605B6BB2051A854008F225E /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6DA2051DC6E008F225E /* IssueDetail */,
+				A605B6D92051DC5D008F225E /* OverView */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		A605B6C22051A854008F225E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6C32051A854008F225E /* parser */,
+				A605B6C42051A854008F225E /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		A605B6C32051A854008F225E /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6CB2051A9A8008F225E /* BaseParser.h */,
+				A605B6CC2051AC33008F225E /* CsvParser.h */,
+				A605B6CD2051AC33008F225E /* CsvParser.m */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		A605B6C42051A854008F225E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6CF2051BFCD008F225E /* UserIssue.h */,
+				A605B6D02051BFCD008F225E /* UserIssue.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A605B6D22051C65F008F225E /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6D32051C696008F225E /* ParserBuilder.h */,
+				A605B6D42051C696008F225E /* ParserBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		A605B6D92051DC5D008F225E /* OverView */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6BC2051A854008F225E /* OverViewDataSource.h */,
+				A605B6BD2051A854008F225E /* OverViewViewModel.h */,
+				A605B6BE2051A854008F225E /* OverViewController.h */,
+				A605B6BF2051A854008F225E /* OverViewViewModel.m */,
+				A605B6C02051A854008F225E /* OverViewDataSource.m */,
+				A605B6C12051A854008F225E /* OverViewController.m */,
+			);
+			path = OverView;
+			sourceTree = "<group>";
+		};
+		A605B6DA2051DC6E008F225E /* IssueDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A605B6D62051DC39008F225E /* IssueDetailViewController.h */,
+				A605B6D72051DC39008F225E /* IssueDetailViewController.m */,
+				A605B6DB2051DCA4008F225E /* IssueDetailViewModel.h */,
+				A605B6DC2051DCA4008F225E /* IssueDetailViewModel.m */,
+			);
+			path = IssueDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A605B6762051771B008F225E /* RabobankTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A605B6982051771B008F225E /* Build configuration list for PBXNativeTarget "RabobankTest" */;
+			buildPhases = (
+				A605B6732051771B008F225E /* Sources */,
+				A605B6742051771B008F225E /* Frameworks */,
+				A605B6752051771B008F225E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabobankTest;
+			productName = RabobankTest;
+			productReference = A605B6772051771B008F225E /* RabobankTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A605B68E2051771B008F225E /* RabobankTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A605B69B2051771B008F225E /* Build configuration list for PBXNativeTarget "RabobankTestTests" */;
+			buildPhases = (
+				A605B68B2051771B008F225E /* Sources */,
+				A605B68C2051771B008F225E /* Frameworks */,
+				A605B68D2051771B008F225E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A605B6912051771B008F225E /* PBXTargetDependency */,
+			);
+			name = RabobankTestTests;
+			productName = RabobankTestTests;
+			productReference = A605B68F2051771B008F225E /* RabobankTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A605B66F2051771B008F225E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jibin Raju";
+				TargetAttributes = {
+					A605B6762051771B008F225E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A605B68E2051771B008F225E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A605B6762051771B008F225E;
+					};
+				};
+			};
+			buildConfigurationList = A605B6722051771B008F225E /* Build configuration list for PBXProject "RabobankTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A605B66E2051771B008F225E;
+			productRefGroup = A605B6782051771B008F225E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A605B6762051771B008F225E /* RabobankTest */,
+				A605B68E2051771B008F225E /* RabobankTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A605B6752051771B008F225E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605B6B92051A3EA008F225E /* issues.csv in Resources */,
+				A605B6B82051A3EA008F225E /* Main.storyboard in Resources */,
+				A605B6B72051A3EA008F225E /* LaunchScreen.storyboard in Resources */,
+				A605B6842051771B008F225E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A605B68D2051771B008F225E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A605B6732051771B008F225E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605B6D12051BFCD008F225E /* UserIssue.m in Sources */,
+				A605B68A2051771B008F225E /* main.m in Sources */,
+				A605B6C72051A854008F225E /* OverViewController.m in Sources */,
+				A605B6C62051A854008F225E /* OverViewDataSource.m in Sources */,
+				A605B67C2051771B008F225E /* AppDelegate.m in Sources */,
+				A605B6DD2051DCA4008F225E /* IssueDetailViewModel.m in Sources */,
+				A605B6C52051A854008F225E /* OverViewViewModel.m in Sources */,
+				A605B6D52051C696008F225E /* ParserBuilder.m in Sources */,
+				A605B6D82051DC39008F225E /* IssueDetailViewController.m in Sources */,
+				A605B6CE2051AC33008F225E /* CsvParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A605B68B2051771B008F225E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605B6942051771B008F225E /* RabobankTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A605B6912051771B008F225E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A605B6762051771B008F225E /* RabobankTest */;
+			targetProxy = A605B6902051771B008F225E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A605B6B12051A3EA008F225E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605B6B22051A3EA008F225E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A605B6B32051A3EA008F225E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605B6B42051A3EA008F225E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A605B6962051771B008F225E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A605B6972051771B008F225E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A605B6992051771B008F225E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2925Q7KS5;
+				INFOPLIST_FILE = RabobankTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rabobank.RabobankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A605B69A2051771B008F225E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2925Q7KS5;
+				INFOPLIST_FILE = RabobankTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rabobank.RabobankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A605B69C2051771B008F225E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2925Q7KS5;
+				INFOPLIST_FILE = RabobankTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rabobank.RabobankTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabobankTest.app/RabobankTest";
+			};
+			name = Debug;
+		};
+		A605B69D2051771B008F225E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2925Q7KS5;
+				INFOPLIST_FILE = RabobankTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rabobank.RabobankTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabobankTest.app/RabobankTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A605B6722051771B008F225E /* Build configuration list for PBXProject "RabobankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605B6962051771B008F225E /* Debug */,
+				A605B6972051771B008F225E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A605B6982051771B008F225E /* Build configuration list for PBXNativeTarget "RabobankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605B6992051771B008F225E /* Debug */,
+				A605B69A2051771B008F225E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A605B69B2051771B008F225E /* Build configuration list for PBXNativeTarget "RabobankTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605B69C2051771B008F225E /* Debug */,
+				A605B69D2051771B008F225E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A605B66F2051771B008F225E /* Project object */;
+}
