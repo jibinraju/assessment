@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Assignment</string>
+    <string name="labelLoad">Load_CVS_Data</string>
+</resources>

@@ -1,0 +1,164 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.dagger:dagger-android-support:2.13] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.13.aar/2af082ed0d74d967b38034d39bab38c2/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.dagger:dagger-android:2.13] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/dagger-android-2.13.aar/893d4da1c8b86443b939050a254cde9f/AndroidManifest.xml:16:1-19:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/b0eb259bdd3768caee244a1f25ead607/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b059eb51f130b7b497cd52dd6fd5f76b/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/8f5f04fd11a100c430e55534b2c5fb54/AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/1ebe916224d86bbd3c9a2ee4e01f46e1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52419c31513ca9bfebf34c1472aab9aa/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/503c890e4fb775da662c259526b00a36/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c994dd1f1cf0614ea7a98118fadddeff/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2c937915287c6b2629c6b979621c9fb4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4c47c909e43bdca11ac38c54648d207c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54e7618392e538e08df34a7b52047e7c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2571b8e8f9413c60f35474efed20cb73/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b059eb51f130b7b497cd52dd6fd5f76b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b059eb51f130b7b497cd52dd6fd5f76b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/1ebe916224d86bbd3c9a2ee4e01f46e1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/1ebe916224d86bbd3c9a2ee4e01f46e1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52419c31513ca9bfebf34c1472aab9aa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52419c31513ca9bfebf34c1472aab9aa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/503c890e4fb775da662c259526b00a36/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/503c890e4fb775da662c259526b00a36/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c994dd1f1cf0614ea7a98118fadddeff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c994dd1f1cf0614ea7a98118fadddeff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2c937915287c6b2629c6b979621c9fb4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2c937915287c6b2629c6b979621c9fb4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4c47c909e43bdca11ac38c54648d207c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4c47c909e43bdca11ac38c54648d207c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54e7618392e538e08df34a7b52047e7c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54e7618392e538e08df34a7b52047e7c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2571b8e8f9413c60f35474efed20cb73/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2571b8e8f9413c60f35474efed20cb73/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:12:9-46
+activity#com.example.rabobank.myassignment.ui.MainActivity
+ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:14:19-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.dagger:dagger-android-support:2.13] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.13.aar/2af082ed0d74d967b38034d39bab38c2/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android-support:2.13] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.13.aar/2af082ed0d74d967b38034d39bab38c2/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android:2.13] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/dagger-android-2.13.aar/893d4da1c8b86443b939050a254cde9f/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android:2.13] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/dagger-android-2.13.aar/893d4da1c8b86443b939050a254cde9f/AndroidManifest.xml:18:3-42
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/b0eb259bdd3768caee244a1f25ead607/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/b0eb259bdd3768caee244a1f25ead607/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b059eb51f130b7b497cd52dd6fd5f76b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b059eb51f130b7b497cd52dd6fd5f76b/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/8f5f04fd11a100c430e55534b2c5fb54/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/8f5f04fd11a100c430e55534b2c5fb54/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/1ebe916224d86bbd3c9a2ee4e01f46e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/1ebe916224d86bbd3c9a2ee4e01f46e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52419c31513ca9bfebf34c1472aab9aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52419c31513ca9bfebf34c1472aab9aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/503c890e4fb775da662c259526b00a36/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/503c890e4fb775da662c259526b00a36/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c994dd1f1cf0614ea7a98118fadddeff/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c994dd1f1cf0614ea7a98118fadddeff/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2c937915287c6b2629c6b979621c9fb4/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2c937915287c6b2629c6b979621c9fb4/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4c47c909e43bdca11ac38c54648d207c/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4c47c909e43bdca11ac38c54648d207c/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54e7618392e538e08df34a7b52047e7c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54e7618392e538e08df34a7b52047e7c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2571b8e8f9413c60f35474efed20cb73/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2571b8e8f9413c60f35474efed20cb73/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jibinraju/Projects/NLAccount/assessment/Rabobank/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/1ebe916224d86bbd3c9a2ee4e01f46e1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/1ebe916224d86bbd3c9a2ee4e01f46e1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52419c31513ca9bfebf34c1472aab9aa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52419c31513ca9bfebf34c1472aab9aa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/503c890e4fb775da662c259526b00a36/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/503c890e4fb775da662c259526b00a36/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c994dd1f1cf0614ea7a98118fadddeff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c994dd1f1cf0614ea7a98118fadddeff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2c937915287c6b2629c6b979621c9fb4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2c937915287c6b2629c6b979621c9fb4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4c47c909e43bdca11ac38c54648d207c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4c47c909e43bdca11ac38c54648d207c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54e7618392e538e08df34a7b52047e7c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/54e7618392e538e08df34a7b52047e7c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2571b8e8f9413c60f35474efed20cb73/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2571b8e8f9413c60f35474efed20cb73/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b30605c4afa5c3244f61d80038aa6758/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jibinraju/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5876942aba3f6080130c11e79fb53700/AndroidManifest.xml:26:13-58
