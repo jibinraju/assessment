@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GooglePlaces
 
 class LocationListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -25,12 +24,8 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
         self.locationListTableView.register(UITableViewCell.self, forCellReuseIdentifier: self.viewModel.cellResueIdentifier)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     // MARK: Private functions
+    
     private func setupViewModel() {
         self.viewModel = LocationListViewModel()
         
@@ -39,6 +34,7 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
     }
     
     // MARK: TableView Delegate
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
@@ -51,5 +47,18 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
         return cell
     }
 
+}
+
+// MARK: extension for UISearch Delegate
+
+extension LocationListViewController : UISearchBarDelegate {
+
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+    }
 }
 
