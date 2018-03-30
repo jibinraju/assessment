@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Locations
+
+  Created by Jibin Raju on 30/03/2018.
+  Copyright © 2018 Jibin Raju. All rights reserved.
+*/
+"LocationList_Title"="Location List";
+"PlaceholderTextForSearchControl"="Please enter your location";
