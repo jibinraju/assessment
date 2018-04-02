@@ -31,3 +31,9 @@ This application not developed in Test Driven Development but I have few unit te
 * I didn't find any bugs in this application.
 * Sometimes Wikipedia application is freezing while doing places search.
 * Sometimes Wikipedia application is not starting properly invoked by the deep link URL
+* Wikipedia application's fresh installation is getting stuck when trying to invoke via deep link URL.
+
+# My Opinion About Code
+* I felt happy about the Locations application but there is room to improve that code base because I am not using the advanced techniques of Swift because I am in an intermediate level, in my last project we were using the Objective-c heavily.
+
+* The modifications in Wikipedia project, I would say okayish even I also have a feeling, I can do much better in that part but I have very limited knowledge of the code base and wiki web API and time-bound submission date.
