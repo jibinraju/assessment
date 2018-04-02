@@ -9,3 +9,5 @@
 "PlaceholderTextForSearchControl"="Please enter your location";
 "App_Name"="Locations";
 "OK"="OK";
+"TextFieldReturnKeyWarning"="Please select location from the list";
+"LocationInformationMissing"="Coordinates are not yet avaliable, please retry";

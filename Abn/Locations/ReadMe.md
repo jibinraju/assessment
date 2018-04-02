@@ -27,4 +27,7 @@ Below files, I have modified in Wikipedia project and commented on the major mod
 # Testing Enviroment
 This application not developed in Test Driven Development but I have few unit test case I didn't write more because I would not use any unit test framework for mocking (Quick/Nimble). The application is only tested on iOS simulator (iPhone 8/8+). 
 
-
+# Bugs
+* I didn't find any bugs in this application.
+* Sometimes Wikipedia application is freezing while doing places search.
+* Sometimes Wikipedia application is not starting properly invoked by the deep link URL

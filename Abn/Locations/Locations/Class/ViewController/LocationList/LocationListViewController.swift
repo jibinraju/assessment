@@ -69,7 +69,7 @@ extension LocationListViewController : UISearchBarDelegate {
         
         self.autoCompletionPlaceHandler.predictPlace(partialNameOfPlace: searchText, callbackBlock: {(results, error) -> Void in
             if let error = error {
-                self.showErrorMessageAlert(error: error as NSError)
+                self.showMessageAlert(message: error.localizedDescription)
                 self.setupDataSource()
                 
                 return
@@ -81,9 +81,14 @@ extension LocationListViewController : UISearchBarDelegate {
         })
     }
     
-    private func showErrorMessageAlert(error: NSError) {
-        let alertViewController = UIAlertController.alertWithOKButton(message: error.localizedDescription)
+    private func showMessageAlert(message: String) {
+        let alertViewController = UIAlertController.alertWithOKButton(message: message)
         self.present(alertViewController, animated: true, completion: nil)
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        let warningMessage = NSLocalizedString("TextFieldReturnKeyWarning", comment: "Warning message when user press return key")
+        self.showMessageAlert(message:warningMessage)
     }
 }
 
@@ -92,6 +97,12 @@ extension LocationListViewController : UISearchBarDelegate {
 extension LocationListViewController : LocationListDataSourceDelegate {
     
     func didSelectLocation(locationListDataSource: LocationListDataSource, selectedPlace: Place) {
+        if selectedPlace.latitude.isEmpty || selectedPlace.longitude.isEmpty {
+            let locationInformationMissing = NSLocalizedString("LocationInformationMissing", comment: "Location coordinates are not avaliable")
+            self.showMessageAlert(message: locationInformationMissing)
+            return
+        }
+        
         let customURL = composeWikipediDeepLinkURL(place: selectedPlace)
         self.application.open(customURL, options: [:], completionHandler: nil)
     }
