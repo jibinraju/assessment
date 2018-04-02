@@ -10,13 +10,14 @@ import Foundation
 
 class LocationListViewModel : NSObject {
     let title: String
-    let placeholderTextForSearchControl: String
-    let cellResueIdentifier: String
+    let searchTextPlaceholder: String
+    let cellReuseIdentifier: String
     
     // MARK: init
     override init() {
         self.title = NSLocalizedString("LocationList_Title", comment: "View Controller title")
-        self.placeholderTextForSearchControl = NSLocalizedString("PlaceholderTextForSearchControl", comment: "Place holder text")
-        self.cellResueIdentifier = "LocationListCellIdentifier"
+        self.searchTextPlaceholder = NSLocalizedString("PlaceholderTextForSearchControl", comment: "Place holder text")
+        self.cellReuseIdentifier = "LocationListCellIdentifier"
     }
 }
+

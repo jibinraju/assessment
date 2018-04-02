@@ -1,2 +1,0 @@
-This is a coding assessment, application's main functionality to show few predefined locations in a table view and allow user to enter location name in a text box, if user tap on any location or press enter after entering custom location then application will invoke the Wikipedia application and navigation to the places screen and show that location in map. while user entering locations in textbox it will give predications with the help of Google place framework.
-

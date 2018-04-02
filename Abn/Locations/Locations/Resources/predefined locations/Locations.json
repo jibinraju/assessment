@@ -1,0 +1,94 @@
+{
+  "places": [
+        {
+            "place": "Amsterdam",
+            "displayname": "Amsterdam, The Netherlands",
+            "latitude": "52.379189",
+            "longitude": "4.899431"
+        },
+        {
+            "place": "Utrecht",
+            "displayname": "Utrecht, The Netherlands",
+            "latitude": "52.092876",
+            "longitude": "5.104480"
+        },
+        {
+            "place": "Almere",
+            "displayname": "Almere, The Netherlands",
+            "latitude": "52.371353",
+            "longitude": "5.222124"
+        },
+        {
+            "place": "Dordrecht",
+            "displayname": "Dordrecht, The Netherlands",
+            "latitude": "51.813297",
+            "longitude": "4.690093"
+        },
+        {
+            "place": "Eindhoven",
+            "displayname": "Eindhoven, The Netherlands",
+            "latitude": "51.441642",
+            "longitude": "5.4697225"
+        },
+        {
+            "place": "Boston",
+            "displayname": "Boston, MA, USA",
+            "latitude": "42.361145",
+            "longitude": "-71.057083"
+        },
+        {
+            "place": "Miami",
+            "displayname": "Miami, FL, USA",
+            "latitude": "25.761681",
+            "longitude": "-80.191788"
+        },
+        {
+            "place": "Philadelphia",
+            "displayname": "Philadelphia, PA, USA",
+            "latitude": "39.952583",
+            "longitude": "-75.165222"
+        },
+        {
+            "place": "Portland",
+            "displayname": "Portland, OR, USA",
+            "latitude": "45.523064",
+            "longitude": "-122.676483"
+        },
+        {
+            "place": "Lexington",
+            "displayname": "Lexington, Kentucky, US",
+            "latitude": "38.047989",
+            "longitude": "-84.501640"
+        },
+        {
+            "place": "Mumbai",
+            "displayname": "Mumbai, India",
+            "latitude": "19.0759849",
+            "longitude": "72.877656"
+        },
+        {
+            "place": "Delhi",
+            "displayname": "Delhi, India",
+            "latitude": "28.613939",
+            "longitude": "77.209021"
+        },
+        {
+            "place": "Bangalore",
+            "displayname": "Bangalore, India",
+            "latitude": "12.971599",
+            "longitude": "77.594563"
+        },
+        {
+            "place": "Chennai",
+            "displayname": "Chennai, India",
+            "latitude": "13.082680",
+            "longitude": "80.270718"
+        },
+        {
+            "place": "Kochin",
+            "displayname": "Kochin, India",
+            "latitude": "9.931233",
+            "longitude": "76.267304"
+        }
+    ]
+}  
